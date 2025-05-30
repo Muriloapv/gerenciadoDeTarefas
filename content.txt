@@ -1,0 +1,17 @@
+Objetivo: criar api rest para gerenciador de tarefas
+
+- Cadastrar tarefas
+- cadastrar usuario
+- login com usuario
+- listar todas as tarefas
+- listar tarefas por status
+- listar tarefas por usuario
+- atualizar o status de uma tarefa
+- remover uma tarefa
+
+
+requisitos tecnicos
+- utilizar nodejs/typscripy
+- prisma + postgresSQL
+- estrutura de projeto em camadas 
+
