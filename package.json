@@ -1,41 +1,29 @@
 {
-  "name": "gerenciadordetarefas",
+  "name": "gerenciador-de-tarefas",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "API REST para gerenciamento de tarefas",
+  "main": "src/server.ts",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Muriloapv/gerenciadoDeTarefas.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Muriloapv/gerenciadoDeTarefas/issues"
-  },
-  "homepage": "https://github.com/Muriloapv/gerenciadoDeTarefas#readme",
-  "description": "",
   "dependencies": {
-    "@prisma/client": "^6.8.2",
-    "@types/bcryptjs": "^2.4.6",
-    "@types/cors": "^2.8.18",
-    "@types/express": "^5.0.2",
-    "@types/jsonwebtoken": "^9.0.9",
-    "@types/node": "^22.15.29",
-    "bcryptjs": "^3.0.2",
+    "@prisma/client": "^5.10.0",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
-    "prisma": "^6.8.2",
-    "ts-node-dev": "^2.0.0"
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.11.19",
+    "prisma": "^5.10.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
   }
-}
+} 
